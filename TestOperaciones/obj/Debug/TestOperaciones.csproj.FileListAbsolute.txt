@@ -1,0 +1,17 @@
+D:\Sistemmas\Pruebas\ConsoleApp1\TestOperaciones\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Sistemmas\Pruebas\ConsoleApp1\TestOperaciones\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Sistemmas\Pruebas\ConsoleApp1\TestOperaciones\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Sistemmas\Pruebas\ConsoleApp1\TestOperaciones\bin\Debug\TestOperaciones.dll
+D:\Sistemmas\Pruebas\ConsoleApp1\TestOperaciones\bin\Debug\TestOperaciones.pdb
+D:\Sistemmas\Pruebas\ConsoleApp1\TestOperaciones\bin\Debug\ConsoleApp1.exe
+D:\Sistemmas\Pruebas\ConsoleApp1\TestOperaciones\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Sistemmas\Pruebas\ConsoleApp1\TestOperaciones\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Sistemmas\Pruebas\ConsoleApp1\TestOperaciones\bin\Debug\ConsoleApp1.pdb
+D:\Sistemmas\Pruebas\ConsoleApp1\TestOperaciones\bin\Debug\ConsoleApp1.exe.config
+D:\Sistemmas\Pruebas\ConsoleApp1\TestOperaciones\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Sistemmas\Pruebas\ConsoleApp1\TestOperaciones\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Sistemmas\Pruebas\ConsoleApp1\TestOperaciones\obj\Debug\TestOperaciones.csprojAssemblyReference.cache
+D:\Sistemmas\Pruebas\ConsoleApp1\TestOperaciones\obj\Debug\TestOperaciones.csproj.CoreCompileInputs.cache
+D:\Sistemmas\Pruebas\ConsoleApp1\TestOperaciones\obj\Debug\TestOperaciones.csproj.CopyComplete
+D:\Sistemmas\Pruebas\ConsoleApp1\TestOperaciones\obj\Debug\TestOperaciones.dll
+D:\Sistemmas\Pruebas\ConsoleApp1\TestOperaciones\obj\Debug\TestOperaciones.pdb
