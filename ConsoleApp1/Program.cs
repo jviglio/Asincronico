@@ -5,32 +5,30 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace ConsoleApp
 {
     public class Program
     {
-        public static void Main(string[] args)
-        {
-            Espera();
-        }
-
-        private static void Espera()
+        public static async Task Main(string[] args)
         {
             Contador cont = new Contador();
             cont.Esperar2();
 
             cont.Segundos = 5;
-            cont.Esperar();
+            var e = cont.Esperar();
 
             Contador cont2 = new Contador();
             cont2.Segundos = 3;
-            cont2.Esperar();
+            var e2 = cont2.Esperar();
 
-            Console.ReadKey();
-        }             
-        
+            await Task.WhenAll(e, e2);
+
+            Console.WriteLine("Fin");
+            Thread.Sleep(1000);
+        }                  
     }
 }
 
