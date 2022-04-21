@@ -12,7 +12,7 @@ namespace ConsoleApp1
 
         public int Segundos { get => segundos; set => segundos = value; }
 
-        public async void Esperar()
+        public async Task Esperar()
         {
             Console.WriteLine("Inicio de contador " + segundos + " segundos");
             await LongOperation();
