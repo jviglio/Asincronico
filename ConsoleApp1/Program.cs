@@ -15,6 +15,8 @@ namespace ConsoleApp
         public static async Task Main(string[] args)
         {
             Contador cont = new Contador();
+            cont.Esperar2();
+
             cont.Segundos = 5;
             var e = cont.Esperar();
 
