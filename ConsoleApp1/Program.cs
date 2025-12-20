@@ -1,10 +1,5 @@
 using ConsoleApp1;
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -14,8 +9,7 @@ namespace ConsoleApp
     {
         public static async Task Main(string[] args)
         {
-            Contador cont = new Contador();
-            cont.Esperar2();
+            Contador cont = new Contador();            
 
             cont.Segundos = 5;
             var e = cont.Esperar();
