@@ -20,8 +20,9 @@ namespace ConsoleApp
 
             await Task.WhenAll(e, e2);
 
-            Console.WriteLine("Fin");
-            Thread.Sleep(1000);
+            Console.WriteLine("Fin - id: " + Thread.CurrentThread.ManagedThreadId);
+            
+            Console.ReadKey();
         }                  
     }
 }

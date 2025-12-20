@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -16,11 +12,11 @@ namespace ConsoleApp1
 
         public async Task Esperar()
         {
-            Console.WriteLine("Inicio de contador " + segundos + " segundos");
+            Console.WriteLine("Inicio de contador " + segundos + " segundos - id: " + Thread.CurrentThread.ManagedThreadId);
             await Task.Run(() =>
             {
-                System.Threading.Thread.Sleep(segundos * 1000);
-                Console.WriteLine("Fin del contador de " + segundos + " segundos");
+                Thread.Sleep(segundos * 1000);
+                Console.WriteLine("Fin del contador de " + segundos + " segundos - id: " + Thread.CurrentThread.ManagedThreadId);
             });
         }
     }
